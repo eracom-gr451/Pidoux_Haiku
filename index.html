@@ -1,8 +1,8 @@
-<!doctype html>
+ <!doctype html>
 <html class="no-js" lang="">
     <head>
         <meta charset="utf-8">
-        <title>| Tous ce qui ne nous tue pas, nous rend simplement plus... bizarre. |</title>
+        <title>| Tout ce qui ne nous tue pas, nous rend simplement plus... bizarre. |</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
@@ -11,14 +11,24 @@
         <style>
             body {
             margin-top: 20%;
-            /*background:url(img/text.jpg) no-repeat center fixed;*/ 
+            background:url(img/01.jpg) no-repeat center fixed;
             -webkit-background-size: cover; /* pour anciens Chrome et Safari */
             background-size: cover;
             text-align: center; 
-          }
+            pointer-events:none;
+            transition: all 1s ease;   
+        }
+            body:hover {
+            background:url(img/02.jpg)
+
+        }
+
+        .glitch {
+            pointer-events:all;
+         }
         </style>
     </head>
     <body>
-        <p>| Tout ce qui ne nous tue pas, </br>nous rend simplement plus... bizarre. |</p>
+        <p>| Tout ce qui ne nous tue pas, </br>nous rend simplement plus...  <span class="glitch">bizarre</span>. |</p>
     </body>
 </html>
