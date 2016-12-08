@@ -36,3 +36,7 @@ dwsync.xml
 ###################
 *.autosave
 *(Autosaved)*
+
+*.psd
+*.CR2
+
